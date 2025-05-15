@@ -57,7 +57,7 @@ def get_weekly_production(
         "machine_wise": machine_wise_counts
     }
 
-#monthly Production
+#Monthly Production
 
 @router.get("/monthly-production/", response_model=schemas.ProductionStats)
 def get_monthly_production(
